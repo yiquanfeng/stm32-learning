@@ -1,0 +1,3 @@
+D:/stm32-learning/cmake-build-debug/CMakeFiles/stm32-learning.elf.dir
+D:/stm32-learning/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/stm32-learning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
