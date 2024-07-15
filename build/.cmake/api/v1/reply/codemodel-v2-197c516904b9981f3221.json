@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "stm32-learning.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-stm32-learning.elf-Debug-40d4fc5f64631a41e6f4.json",
+					"jsonFile" : "target-stm32-learning.elf-Debug-279c1da55cf9841c0e70.json",
 					"name" : "stm32-learning.elf",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/stm32-learning/cmake-build-debug",
+		"build" : "D:/stm32-learning/build",
 		"source" : "D:/stm32-learning"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }

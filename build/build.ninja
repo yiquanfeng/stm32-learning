@@ -56,8 +56,14 @@ build CMakeFiles/stm32-learning.elf.dir/Core/Src/gpio.c.obj: C_COMPILER__stm32-l
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Core\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
+
+build CMakeFiles/stm32-learning.elf.dir/Core/Src/i2c.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Core/Src/i2c.c || cmake_object_order_depends_target_stm32-learning.elf
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\stm32-learning.elf.dir\Core\Src\i2c.c.obj.d
+  FLAGS = -g -std=gnu11 -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
+  INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Core\Src
 
 build CMakeFiles/stm32-learning.elf.dir/Core/Src/main.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Core/Src/main.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -66,8 +72,6 @@ build CMakeFiles/stm32-learning.elf.dir/Core/Src/main.c.obj: C_COMPILER__stm32-l
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Core\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Core/Src/sg90.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Core/Src/sg90.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -76,8 +80,6 @@ build CMakeFiles/stm32-learning.elf.dir/Core/Src/sg90.c.obj: C_COMPILER__stm32-l
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Core\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Core/Src/stm32f1xx_hal_msp.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -86,8 +88,6 @@ build CMakeFiles/stm32-learning.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: C_COMP
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Core\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Core/Src/stm32f1xx_it.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Core/Src/stm32f1xx_it.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -96,8 +96,6 @@ build CMakeFiles/stm32-learning.elf.dir/Core/Src/stm32f1xx_it.c.obj: C_COMPILER_
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Core\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Core/Src/syscalls.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Core/Src/syscalls.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -106,8 +104,6 @@ build CMakeFiles/stm32-learning.elf.dir/Core/Src/syscalls.c.obj: C_COMPILER__stm
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Core\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Core/Src/sysmem.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Core/Src/sysmem.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -116,8 +112,6 @@ build CMakeFiles/stm32-learning.elf.dir/Core/Src/sysmem.c.obj: C_COMPILER__stm32
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Core\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Core/Src/system_stm32f1xx.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Core/Src/system_stm32f1xx.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -126,8 +120,6 @@ build CMakeFiles/stm32-learning.elf.dir/Core/Src/system_stm32f1xx.c.obj: C_COMPI
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Core\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Core/Src/tim.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Core/Src/tim.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -136,8 +128,14 @@ build CMakeFiles/stm32-learning.elf.dir/Core/Src/tim.c.obj: C_COMPILER__stm32-le
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Core\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
+
+build CMakeFiles/stm32-learning.elf.dir/Core/Src/usart.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Core/Src/usart.c || cmake_object_order_depends_target_stm32-learning.elf
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\stm32-learning.elf.dir\Core\Src\usart.c.obj.d
+  FLAGS = -g -std=gnu11 -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
+  INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Core\Src
 
 build CMakeFiles/stm32-learning.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj: ASM_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Core/Startup/startup_stm32f103c8tx.s || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -146,8 +144,6 @@ build CMakeFiles/stm32-learning.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Core\Startup
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -156,8 +152,6 @@ build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -166,8 +160,6 @@ build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -176,8 +168,6 @@ build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -186,8 +176,6 @@ build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -196,8 +184,6 @@ build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -206,8 +192,6 @@ build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -216,8 +200,6 @@ build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -226,8 +208,14 @@ build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
+
+build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c || cmake_object_order_depends_target_stm32-learning.elf
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\stm32-learning.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj.d
+  FLAGS = -g -std=gnu11 -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
+  INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
 build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -236,8 +224,6 @@ build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -246,8 +232,6 @@ build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -256,8 +240,6 @@ build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -266,8 +248,6 @@ build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
 
 build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c || cmake_object_order_depends_target_stm32-learning.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
@@ -276,8 +256,14 @@ build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1
   INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
-  TARGET_PDB = stm32-learning.elf.pdb
+
+build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: C_COMPILER__stm32-learning.2eelf_unscanned_Debug D$:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c || cmake_object_order_depends_target_stm32-learning.elf
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\stm32-learning.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj.d
+  FLAGS = -g -std=gnu11 -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
+  INCLUDES = -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\stm32-learning.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
 
 # =============================================================================
@@ -287,15 +273,14 @@ build CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1
 #############################################
 # Link the executable stm32-learning.elf
 
-build stm32-learning.elf: C_EXECUTABLE_LINKER__stm32-learning.2eelf_Debug CMakeFiles/stm32-learning.elf.dir/Core/Src/gpio.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Src/main.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Src/sg90.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Src/stm32f1xx_it.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Src/syscalls.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Src/sysmem.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Src/system_stm32f1xx.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Src/tim.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+build stm32-learning.elf: C_EXECUTABLE_LINKER__stm32-learning.2eelf_Debug CMakeFiles/stm32-learning.elf.dir/Core/Src/gpio.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Src/i2c.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Src/main.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Src/sg90.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Src/stm32f1xx_it.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Src/syscalls.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Src/sysmem.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Src/system_stm32f1xx.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Src/tim.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Src/usart.c.obj CMakeFiles/stm32-learning.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj CMakeFiles/stm32-learning.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
   FLAGS = -g
   LINK_FLAGS = -Wl,-gc-sections,--print-memory-usage,-Map=D:/stm32-learning/build/stm32-learning.map -mcpu=cortex-m3 -mthumb -mthumb-interwork -T D:/stm32-learning/STM32F103C8TX_FLASH.ld
   OBJECT_DIR = CMakeFiles\stm32-learning.elf.dir
   POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D D:\stm32-learning\build && arm-none-eabi-objcopy -Oihex D:/stm32-learning/build/stm32-learning.elf D:/stm32-learning/build/stm32-learning.hex && arm-none-eabi-objcopy -Obinary D:/stm32-learning/build/stm32-learning.elf D:/stm32-learning/build/stm32-learning.bin"
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\stm32-learning.elf.dir\
   TARGET_FILE = stm32-learning.elf
-  TARGET_PDB = stm32-learning.elf.pdb
+  TARGET_PDB = stm32-learning.elf.dbg
 
 
 #############################################
@@ -341,14 +326,14 @@ build all: phony stm32-learning.elf
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.30.0/CMakeASMCompiler.cmake CMakeFiles/3.30.0/CMakeCCompiler.cmake CMakeFiles/3.30.0/CMakeCXXCompiler.cmake CMakeFiles/3.30.0/CMakeSystem.cmake D$:/stm32-learning/CMakeLists.txt E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeASMCompiler.cmake.in E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeASMInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeNinjaFindMake.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeSystem.cmake.in E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeTestASMCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU-ASM.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Platform/Generic.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.30.0/CMakeASMCompiler.cmake CMakeFiles/3.30.0/CMakeCCompiler.cmake CMakeFiles/3.30.0/CMakeCXXCompiler.cmake CMakeFiles/3.30.0/CMakeSystem.cmake D$:/stm32-learning/CMakeLists.txt E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeASMInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU-ASM.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Platform/Generic.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.30.0/CMakeASMCompiler.cmake CMakeFiles/3.30.0/CMakeCCompiler.cmake CMakeFiles/3.30.0/CMakeCXXCompiler.cmake CMakeFiles/3.30.0/CMakeSystem.cmake D$:/stm32-learning/CMakeLists.txt E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeASMCompiler.cmake.in E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeASMInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeNinjaFindMake.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeSystem.cmake.in E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeTestASMCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU-ASM.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Platform/Generic.cmake: phony
+build CMakeCache.txt CMakeFiles/3.30.0/CMakeASMCompiler.cmake CMakeFiles/3.30.0/CMakeCCompiler.cmake CMakeFiles/3.30.0/CMakeCXXCompiler.cmake CMakeFiles/3.30.0/CMakeSystem.cmake D$:/stm32-learning/CMakeLists.txt E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeASMInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU-ASM.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Compiler/GNU.cmake E$:/cmake-3.30.0-windows-x86_64/share/cmake-3.30/Modules/Platform/Generic.cmake: phony
 
 
 #############################################

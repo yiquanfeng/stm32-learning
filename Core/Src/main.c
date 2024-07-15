@@ -18,12 +18,15 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "i2c.h"
 #include "tim.h"
+#include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "sg90.h"
+#include "oled.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -88,8 +91,12 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_TIM1_Init();
+  MX_I2C1_Init();
+  MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  HAL_Delay(20);
+    OLED_Init();
+    OLED_TEST();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -97,7 +104,7 @@ int main(void)
   while (1)
   {
     // __HAL_TIM_SetCompare(&htim1,TIM_CHANNEL_1,47);
-    sg90_move(2250);
+    sg90_move(450);
 
     /* USER CODE END WHILE */
 

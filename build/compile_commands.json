@@ -7,6 +7,12 @@
 },
 {
   "directory": "D:/stm32-learning/build",
+  "command": "\"E:\\Arm_GNU_ToolChain\\13.2 Rel1\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include -g -std=gnu11 -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\stm32-learning.elf.dir\\Core\\Src\\i2c.c.obj -c D:\\stm32-learning\\Core\\Src\\i2c.c",
+  "file": "D:\\stm32-learning\\Core\\Src\\i2c.c",
+  "output": "CMakeFiles\\stm32-learning.elf.dir\\Core\\Src\\i2c.c.obj"
+},
+{
+  "directory": "D:/stm32-learning/build",
   "command": "\"E:\\Arm_GNU_ToolChain\\13.2 Rel1\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include -g -std=gnu11 -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\stm32-learning.elf.dir\\Core\\Src\\main.c.obj -c D:\\stm32-learning\\Core\\Src\\main.c",
   "file": "D:\\stm32-learning\\Core\\Src\\main.c",
   "output": "CMakeFiles\\stm32-learning.elf.dir\\Core\\Src\\main.c.obj"
@@ -52,6 +58,12 @@
   "command": "\"E:\\Arm_GNU_ToolChain\\13.2 Rel1\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include -g -std=gnu11 -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\stm32-learning.elf.dir\\Core\\Src\\tim.c.obj -c D:\\stm32-learning\\Core\\Src\\tim.c",
   "file": "D:\\stm32-learning\\Core\\Src\\tim.c",
   "output": "CMakeFiles\\stm32-learning.elf.dir\\Core\\Src\\tim.c.obj"
+},
+{
+  "directory": "D:/stm32-learning/build",
+  "command": "\"E:\\Arm_GNU_ToolChain\\13.2 Rel1\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include -g -std=gnu11 -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\stm32-learning.elf.dir\\Core\\Src\\usart.c.obj -c D:\\stm32-learning\\Core\\Src\\usart.c",
+  "file": "D:\\stm32-learning\\Core\\Src\\usart.c",
+  "output": "CMakeFiles\\stm32-learning.elf.dir\\Core\\Src\\usart.c.obj"
 },
 {
   "directory": "D:/stm32-learning/build",
@@ -109,6 +121,12 @@
 },
 {
   "directory": "D:/stm32-learning/build",
+  "command": "\"E:\\Arm_GNU_ToolChain\\13.2 Rel1\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include -g -std=gnu11 -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\stm32-learning.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_i2c.c.obj -c D:\\stm32-learning\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_i2c.c",
+  "file": "D:\\stm32-learning\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_i2c.c",
+  "output": "CMakeFiles\\stm32-learning.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_i2c.c.obj"
+},
+{
+  "directory": "D:/stm32-learning/build",
   "command": "\"E:\\Arm_GNU_ToolChain\\13.2 Rel1\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include -g -std=gnu11 -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\stm32-learning.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_pwr.c.obj -c D:\\stm32-learning\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_pwr.c",
   "file": "D:\\stm32-learning\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_pwr.c",
   "output": "CMakeFiles\\stm32-learning.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_pwr.c.obj"
@@ -136,5 +154,11 @@
   "command": "\"E:\\Arm_GNU_ToolChain\\13.2 Rel1\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include -g -std=gnu11 -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\stm32-learning.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim_ex.c.obj -c D:\\stm32-learning\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim_ex.c",
   "file": "D:\\stm32-learning\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim_ex.c",
   "output": "CMakeFiles\\stm32-learning.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim_ex.c.obj"
+},
+{
+  "directory": "D:/stm32-learning/build",
+  "command": "\"E:\\Arm_GNU_ToolChain\\13.2 Rel1\\bin\\arm-none-eabi-gcc.exe\" -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -ID:/stm32-learning/Core/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/stm32-learning/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/stm32-learning/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/stm32-learning/Drivers/CMSIS/Include -g -std=gnu11 -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -o CMakeFiles\\stm32-learning.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_uart.c.obj -c D:\\stm32-learning\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_uart.c",
+  "file": "D:\\stm32-learning\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_uart.c",
+  "output": "CMakeFiles\\stm32-learning.elf.dir\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_uart.c.obj"
 }
 ]
